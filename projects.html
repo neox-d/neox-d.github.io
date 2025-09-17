@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacs-system-font, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            padding: 2.5rem;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 0.25rem;
+            margin-top: 2rem;
+        }
+        nav {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+        nav a {
+            font-weight: 600;
+            margin: 0 1rem;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        .project-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .project {
+            margin-bottom: 1.5rem;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <section>
+        <div class="project">
+            <h3 class="project-title">PathSolver Lightweight Graph Library</h3>
+            <div class="project-link"><a href="https://github.com/neox-d/pathsolver" target="_blank">https://github.com/neox-d/pathsolver</a></div>
+            <ul>
+                <li>Designed and implemented a reusable Java library focused on shortest-path algorithms.</li>
+                <li>Abstracted core graph representations via interfaces and generics, enabling extensibility.</li>
+                <li>Benchmarked algorithms on synthetic and real-world datasets to highlight performance trade-offs.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3 class="project-title">Workflow Engine Rule-based Process Orchestration</h3>
+            <div class="project-link"><a href="https://github.com/neox-d/ruleflow" target="_blank">https://github.com/neox-d/ruleflow</a></div>
+            <ul>
+                <li>Built a lightweight workflow orchestration engine inspired by enterprise systems.</li>
+                <li>Designed a modular architecture using interfaces and factories to plug in custom rules and task handlers.</li>
+                <li>Implemented persistence and scheduling for workflows, ensuring fault tolerance and recoverability.</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
